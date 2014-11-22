@@ -13,6 +13,20 @@ Up, Up, Down, Down, Left, Right, Left, Right, B, A
 A Contra character will scroll across the screen and an audio sample 
 will play.
 
-A basic example can be found in the 'example' directory.
+A basic example can be found in the 'example' directory. There
+is also a minimized version that is slightly smaller than the full expanded
+source.
+
+Both the animated GIF file, and the audio OGG file are encoded into the
+javascript using base64 for simplicity.
 
 Feel free to fork this, or use it in any project you wish.
+
+## Usage
+
+Simply add the following to your existing page. (requires jQuery)
+
+```html
+<script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.js"></script>
+<script type="text/javascript" src="javascripts/contra.js"></script>
+```
