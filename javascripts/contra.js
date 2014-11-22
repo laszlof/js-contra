@@ -6,7 +6,7 @@ var contra = $(window).load(function(){
     kkeys.push( e.keyCode );
     if ( kkeys.toString().indexOf( konami ) >= 0 ) {
       console.log('Contra Easter Egg Activated!');
-      console.log('Developed by Frank Laszlo <frank@franksworld.org');
+      console.log('Developed by Frank Laszlo <frank@franksworld.org>');
       $(document).unbind("keydown.Contra");
       kkeys = [];
       var width = $(window).width(),
