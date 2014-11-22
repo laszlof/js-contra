@@ -32,3 +32,5 @@ Simply add the following to your existing page. (requires jQuery)
 ```
 
 Checkout the [Live Demo.](http://laszlof.github.io/js-contra)
+
+Feel free to contact me if you have any questions.
