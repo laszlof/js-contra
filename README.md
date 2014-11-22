@@ -10,7 +10,7 @@ When a user on your site enters the Konami Code:
 Up, Up, Down, Down, Left, Right, Left, Right, B, A
 ```
 
-A Contra character will scroll across the screen and an audio sample 
+A Contra character will scroll across the screen and an audio sample
 will play.
 
 A basic example can be found in the 'example' directory. There
@@ -30,3 +30,5 @@ Simply add the following to your existing page. (requires jQuery)
 <script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.js"></script>
 <script type="text/javascript" src="javascripts/contra.js"></script>
 ```
+
+Checkout the [Live Demo.](http://laszlof.github.io/js-contra)
