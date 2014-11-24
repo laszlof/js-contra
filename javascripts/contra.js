@@ -10,7 +10,7 @@ var contra = $(window).load(function(){
       $(document).unbind("keydown.Contra");
       kkeys = [];
       var width = $(window).width(),
-          pos_top = (Math.random() * ($(document).height() - 100)).toFixed();
+          pos_top = (Math.random() * ($(window).height() - 100)).toFixed();
       var $rest30 = $('<div>')
         .attr('id', 'rest30')
         .css({ 
@@ -18,14 +18,14 @@ var contra = $(window).load(function(){
                 "font-size": "30px",
                 "font-weight": "bold",
                 "line-height": "1.5",
-                "position": "absolute",
+                "position": "fixed",
                 "top": "20px",
                 "left": "20px",
                 "z-index": "9000"
         }).html("1P<br />REST 30");
       var $contra = $('<div>')
         .attr('id', 'contra')
-        .css({ "position": "absolute", "left": "-80px", "top": pos_top+"px", "z-index": "9001" }) 
+        .css({ "position": "fixed", "left": "-80px", "top": pos_top+"px", "z-index": "9001" }) 
         .append('<img src="data:image/gif;base64,'+guy+'" />')
         .append('<audio autoplay><source src="data:audio/ogg;base64,'+audio+'" type="audio/ogg"></audio>');
       $('body').append($contra);
