@@ -17,6 +17,7 @@ var contra = $(window).load(function(){
                 "font-family": "'Press Start 2P'",
                 "font-size": "30px",
                 "font-weight": "bold",
+                "color": "#000",
                 "line-height": "1.5",
                 "position": "fixed",
                 "top": "20px",
