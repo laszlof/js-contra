@@ -1,7 +1,7 @@
-var contra = $(window).load(function(){
-  var kkeys = [], 
+var contra = document.ready(function(){
+  var kkeys = [],
       konami = "38,38,40,40,37,39,37,39,66,65";
-  $('head').append("<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Press+Start+2P'>"); 
+  // $('head').append("<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Press+Start+2P'>");
   var do_contra = function(e) {
     kkeys.push( e.keyCode );
     if ( kkeys.toString().indexOf( konami ) >= 0 ) {
@@ -13,7 +13,7 @@ var contra = $(window).load(function(){
           pos_top = (Math.random() * ($(window).height() - 100)).toFixed();
       var $rest30 = $('<div>')
         .attr('id', 'rest30')
-        .css({ 
+        .css({
                 "font-family": "'Press Start 2P'",
                 "font-size": "30px",
                 "font-weight": "bold",
@@ -26,7 +26,7 @@ var contra = $(window).load(function(){
         }).html("1P<br />REST 30");
       var $contra = $('<div>')
         .attr('id', 'contra')
-        .css({ "position": "fixed", "left": "-80px", "top": pos_top+"px", "z-index": "9001" }) 
+        .css({ "position": "fixed", "left": "-80px", "top": pos_top+"px", "z-index": "9001" })
         .append('<img src="data:image/gif;base64,'+guy+'" />')
         .append('<audio autoplay><source src="data:audio/ogg;base64,'+audio+'" type="audio/ogg"></audio>');
       $('body').append($contra);
