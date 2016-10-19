@@ -34,7 +34,7 @@ var contra = window.onload = function(){
 
       // get random number for vertical positioning
       var pos_top = (Math.random() * (window.innerHeight - 100)).toFixed();
-      
+
       window.removeEventListener('keydown', do_contra);
       kkeys = [];
 
@@ -66,7 +66,6 @@ var contra = window.onload = function(){
 
       // character movement animation
       contraGuy.moveRight = function(){
-        console.log('hes moving!');
         this.className = 'move-right';
         setTimeout(function(){
           document.body.removeChild(contraGuy);
