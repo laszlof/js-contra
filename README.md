@@ -24,10 +24,9 @@ Feel free to fork this, or use it in any project you wish.
 
 ## Usage
 
-Simply add the following to your existing page. (requires jQuery)
+Simply add the following to your existing page.
 
 ```html
-<script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.js"></script>
 <script type="text/javascript" src="javascripts/contra.js"></script>
 ```
 
