@@ -22,12 +22,19 @@ javascript using base64 for simplicity.
 
 Feel free to fork this, or use it in any project you wish.
 
+## Installation
+
+```
+$ bower install js-contra
+```
+
+
 ## Usage
 
 Simply add the following to your existing page.
 
 ```html
-<script type="text/javascript" src="javascripts/contra.js"></script>
+<script type="text/javascript" src="src/contra.js"></script>
 ```
 
 Checkout the [Live Demo.](http://laszlof.github.io/js-contra)
