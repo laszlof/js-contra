@@ -1,0 +1,22 @@
+{
+  "name": "js-contra",
+  "version": "1.0.0",
+  "description": "Javascript easter egg featuring the Konami Code (Contra)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laszlof/js-contra.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laszlof/js-contra/issues"
+  },
+  "homepage": "https://github.com/laszlof/js-contra#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0"
+  }
+}
